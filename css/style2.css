@@ -1,0 +1,71 @@
+body{
+	
+	background: #43FF02;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+ul li{
+	
+	display: inline-block;
+}
+
+ul li a {
+	
+	text-decoration: none;
+	color: green;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	
+	background-color:black;
+	color: greenyellow;
+		
+}
+ul li.active a{
+	
+	background: #3AF407;
+	color:green;
+		
+	
+	
+	
+}
+.logo img{
+	float: left;
+	text-align: center;
+	
+	
+	
+	
+}
+.main{
+	
+	max-width: 1200px;
+	margin: auto;
+		
+}
+
+h1{
+	
+	text-align: center;
+	margin: 10px;
+	padding: 98px;
+}
+
+h2{
+	
+	text-align: center;
+		
+}
+
+p{
+	
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+}
